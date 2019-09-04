@@ -1,8 +1,21 @@
 # terraform-openstack-infrastructure
 This is a terraform project repo to create and destroy bare minimum OpenStack Compute, Network and Storage resources to verify the site is operational for end users to access after any recovery efforts.
 
+
 Terraform v0.12.6
 + provider.openstack v1.21.1
+
+The terraform.tfvars is ignored in this repo and would look something like this for this setup
+
+vim terraform.tfvars 
+user_name = "username-xxx"
+tenant_id = "tenant-id-xxx"
+password = "password-xxx"
+user_domain_name = "user-domain-name-for-project"
+region = "site-region-name-xx"
+auth_url = "https://identity-url:443/v3"
+
+
 
 Outputs:
 
