@@ -1,5 +1,6 @@
 # terraform-openstack-infrastructure
-This is a terraform project repo to create and destroy OpenStack compute, Network and storage resources
+This is a terraform project repo to create and destroy bare minimum OpenStack Compute, Network and Storage resources to verify the site is operational for end users to access after any recovery efforts.
+
 Terraform v0.12.6
 + provider.openstack v1.21.1
 
